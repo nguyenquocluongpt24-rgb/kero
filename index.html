@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="vi" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Luyện thi ビジネスキャリア検定 生産管理オペレーション 3級 theo từng chương." />
+    <meta name="theme-color" content="#18332b" />
+    <title>生産管理 3級 — Luyện thi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Shippori+Mincho:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="data/questions-data.js"></script>
+    <script defer src="data/demo-questions.js"></script>
+    <script defer src="assets/js/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Bỏ qua điều hướng</a>
+
+    <svg class="svg-sprite" aria-hidden="true" focusable="false">
+      <symbol id="i-home" viewBox="0 0 24 24"><path d="M3.5 10.5 12 3l8.5 7.5"/><path d="M5.5 9.5v11h13v-11"/><path d="M9.5 20.5v-6h5v6"/></symbol>
+      <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11v17H6.5A2.5 2.5 0 0 0 4 22.5z"/><path d="M20 5.5A2.5 2.5 0 0 0 17.5 3H13v17h4.5a2.5 2.5 0 0 1 2.5 2.5z"/></symbol>
+      <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 6v5h-5"/><path d="M18.4 15a8 8 0 1 1 .6-7.8L20 11"/></symbol>
+      <symbol id="i-bookmark" viewBox="0 0 24 24"><path d="M6 4.5A1.5 1.5 0 0 1 7.5 3h9A1.5 1.5 0 0 1 18 4.5V21l-6-3.6L6 21z"/></symbol>
+      <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V3"/><path d="m7 8 5-5 5 5"/><path d="M4 15v4.5A1.5 1.5 0 0 0 5.5 21h13a1.5 1.5 0 0 0 1.5-1.5V15"/></symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.5 15.6A8.5 8.5 0 0 1 8.4 3.5 8.5 8.5 0 1 0 20.5 15.6Z"/></symbol>
+      <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="m4.5 12.5 5 5 10-11"/></symbol>
+      <symbol id="i-x" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19"/></symbol>
+      <symbol id="i-left" viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"/></symbol>
+      <symbol id="i-right" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+      <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/></symbol>
+      <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 12 9 5 9-5"/><path d="m3 16 9 5 9-5"/></symbol>
+      <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></symbol>
+      <symbol id="i-furigana" viewBox="0 0 24 24"><path d="M4 19.5h11M6 14.5h9"/><path d="M10.5 4v10.5M6.5 4h8"/><path d="M17.5 4c-.4 2.6-1.2 4.6-2.4 6.1M19.5 6.5c.3 2 1.2 3.5 2.5 4.6"/></symbol>
+      <symbol id="i-lang" viewBox="0 0 24 24"><path d="M4 5h8M8 3v2c0 4.5-1.5 7.5-4 9.5"/><path d="M5.5 10c1.2 2.2 3 3.7 5.5 4.5"/><path d="m13 21 4-11 4 11M14.5 17h5"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></symbol>
+      <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3 2.8 20h18.4z"/><path d="M12 9v4.5M12 17h.01"/></symbol>
+      <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></symbol>
+      <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3M6.5 7l1 14h9l1-14M10 11v6M14 11v6"/></symbol>
+      <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M18.4 5.6l-2.8 2.8M8.4 15.6l-2.8 2.8"/></symbol>
+    </svg>
+
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar" aria-label="Điều hướng chính">
+        <div class="brand">
+          <div class="brand-seal" aria-hidden="true">生</div>
+          <div class="brand-copy">
+            <span>ビジネスキャリア検定</span>
+            <strong>生産管理 <em>3級</em></strong>
+          </div>
+        </div>
+
+        <div class="sidebar-scroll">
+          <nav class="primary-nav" aria-label="Chế độ học">
+            <button class="nav-item is-active" type="button" data-view="dashboard">
+              <svg class="icon"><use href="#i-home"/></svg><span>Tổng quan</span>
+            </button>
+            <button class="nav-item" type="button" data-start-mode="all">
+              <svg class="icon"><use href="#i-book"/></svg><span>Luyện tập</span>
+            </button>
+            <button class="nav-item" type="button" data-start-mode="review">
+              <svg class="icon"><use href="#i-refresh"/></svg><span>Câu làm sai</span>
+              <span class="nav-count" id="review-count">0</span>
+            </button>
+            <button class="nav-item" type="button" data-start-mode="bookmarks">
+              <svg class="icon"><use href="#i-bookmark"/></svg><span>Đã lưu</span>
+              <span class="nav-count" id="bookmark-count">0</span>
+            </button>
+          </nav>
+
+          <section class="sidebar-section" aria-labelledby="chapter-heading">
+            <div class="sidebar-section-head">
+              <h2 id="chapter-heading">Chương học</h2><span>10</span>
+            </div>
+            <div class="chapter-nav" id="chapter-nav"></div>
+          </section>
+        </div>
+
+        <div class="sidebar-footer">
+          <div class="sidebar-progress-copy">
+            <span>Tiến độ tổng</span><strong id="sidebar-progress-text">0%</strong>
+          </div>
+          <div class="progress-track progress-track--light"><span id="sidebar-progress-bar" style="width:0%"></span></div>
+          <div class="data-source"><span class="status-dot" aria-hidden="true"></span><span id="data-source-label">Đang tải dữ liệu…</span></div>
+        </div>
+      </aside>
+
+      <button class="sidebar-scrim" id="sidebar-scrim" type="button" aria-label="Đóng menu" tabindex="-1"></button>
+
+      <div class="main-shell">
+        <header class="topbar">
+          <button class="icon-button menu-button" id="menu-toggle" type="button" aria-label="Mở menu" aria-controls="sidebar" aria-expanded="false">
+            <svg class="icon"><use href="#i-menu"/></svg>
+          </button>
+          <div class="topbar-title"><span id="page-kicker">Study desk</span><strong id="page-title">Tổng quan</strong></div>
+          <div class="topbar-actions">
+            <div class="switch-group" role="group" aria-label="Hiển thị nội dung">
+              <button class="switch" id="furigana-toggle" type="button" aria-pressed="false"
+                title="Bật/tắt phiên âm Furigana trên tiếng Nhật (F)">
+                <svg class="icon"><use href="#i-furigana"/></svg>
+                <span class="switch-label">Furigana</span>
+                <span class="switch-track" aria-hidden="true"><span class="switch-knob"></span></span>
+              </button>
+              <button class="switch" id="translation-toggle" type="button" aria-pressed="true"
+                title="Bật/tắt bản dịch tiếng Việt (T)">
+                <svg class="icon"><use href="#i-lang"/></svg>
+                <span class="switch-label">Bản dịch</span>
+                <span class="switch-track" aria-hidden="true"><span class="switch-knob"></span></span>
+              </button>
+            </div>
+            <button class="soft-button import-button" type="button" data-open-import>
+              <svg class="icon"><use href="#i-upload"/></svg><span>Nhập JSON</span>
+            </button>
+            <button class="icon-button theme-toggle" id="theme-toggle" type="button" aria-label="Đổi giao diện sáng/tối" title="Đổi giao diện sáng/tối">
+              <svg class="icon icon-moon"><use href="#i-moon"/></svg><svg class="icon icon-sun"><use href="#i-sun"/></svg>
+            </button>
+          </div>
+        </header>
+
+        <main class="main-content" id="main-content" tabindex="-1">
+          <div class="loading-state" role="status"><span class="loader" aria-hidden="true"></span><p>Đang chuẩn bị bộ câu hỏi…</p></div>
+        </main>
+      </div>
+    </div>
+
+    <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+
+    <div class="modal-backdrop" id="import-modal" hidden>
+      <section class="modal import-modal" role="dialog" aria-modal="true" aria-labelledby="import-title">
+        <div class="modal-head">
+          <div><span class="eyebrow">Dữ liệu câu hỏi</span><h2 id="import-title">Nhập bộ đề của bạn</h2></div>
+          <button class="icon-button" type="button" data-close-modal aria-label="Đóng"><svg class="icon"><use href="#i-x"/></svg></button>
+        </div>
+        <p class="modal-intro">Chọn file JSON đúng cấu trúc. Dữ liệu được xử lý ngay trên trình duyệt và không được gửi đi đâu.</p>
+        <label class="drop-zone" id="drop-zone" for="json-file-input">
+          <input id="json-file-input" type="file" accept=".json,application/json" />
+          <span class="drop-icon"><svg class="icon"><use href="#i-upload"/></svg></span>
+          <strong>Kéo thả file JSON vào đây</strong>
+          <span>hoặc bấm để chọn file · tối đa 10 MB</span>
+        </label>
+        <div class="import-error" id="import-error" hidden></div>
+        <div class="import-note">
+          <svg class="icon"><use href="#i-info"/></svg>
+          <p>Bộ dữ liệu mới sẽ thay thế bộ đang dùng. Tiến độ làm bài được giữ lại nếu bộ câu hỏi không thay đổi.</p>
+        </div>
+        <div class="modal-actions">
+          <button class="text-button" id="reset-sample-data" type="button"><svg class="icon"><use href="#i-refresh"/></svg>Dùng lại dữ liệu mẫu</button>
+          <button class="soft-button" type="button" data-close-modal>Đóng</button>
+        </div>
+      </section>
+    </div>
+
+    <div class="modal-backdrop" id="palette-modal" hidden>
+      <section class="modal palette-modal" role="dialog" aria-modal="true" aria-labelledby="palette-title">
+        <div class="modal-head">
+          <div><span class="eyebrow">Bảng câu hỏi</span><h2 id="palette-title">Chuyển nhanh</h2></div>
+          <button class="icon-button" type="button" data-close-modal aria-label="Đóng"><svg class="icon"><use href="#i-x"/></svg></button>
+        </div>
+        <div class="palette-legend">
+          <span><i class="legend-dot is-current"></i>Đang làm</span>
+          <span><i class="legend-dot is-correct"></i>Đúng</span>
+          <span><i class="legend-dot is-wrong"></i>Sai</span>
+          <span><i class="legend-dot"></i>Chưa làm</span>
+        </div>
+        <div class="palette-grid" id="palette-grid"></div>
+      </section>
+    </div>
+  </body>
+</html>
